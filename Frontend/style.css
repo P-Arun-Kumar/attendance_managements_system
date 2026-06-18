@@ -1,0 +1,9 @@
+/* div {
+    text-align: center;
+    background-color: lightblue;
+} */
+.login-container , .register-container {
+    /* background-color:lightblue;
+    text-align: center; */
+    width: 300px;
+}
