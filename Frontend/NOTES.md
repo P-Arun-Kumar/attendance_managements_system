@@ -31,3 +31,7 @@ a++ ==> post increment
 - Strict equality (===)  ==> it is comparing both value and data type
 
 
+# There are 3 types of functions in js
+- Function declaration 
+- Function expression
+- Arrow function (ES6)
