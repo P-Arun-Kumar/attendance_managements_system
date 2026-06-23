@@ -1,12 +1,12 @@
 import React from 'react'
 
-function DashboardCard(props) {
-    console.log(props)
+function DashboardCard({heading,count}) {
+    console.log()
     return (
         <div className="card">
             <div className="card-body text-center">
-                <h5>{props.heading}</h5>
-                <h5>{props.count}</h5>
+                <h5>{heading}</h5>
+                <h5>{count}</h5>
             </div>
         </div>
     )

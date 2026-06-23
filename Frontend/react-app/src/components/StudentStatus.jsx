@@ -1,11 +1,11 @@
 import React from 'react'
 
-function StudentStatus(props) {
+function StudentStatus({rollno,name,status}) {
   return (
     <tr>
-        <td>{props.rollno}</td>
-        <td>{props.name}</td>
-        <td>{props.status}</td>
+        <td>{rollno}</td>
+        <td>{name}</td>
+        <td>{status}</td>
     </tr>
   )
 }
